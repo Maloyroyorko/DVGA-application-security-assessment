@@ -1,0 +1,8 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Mon, 31 Aug 2026 16:55:12 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 116
+
+{"data":{"importPaste":{"result":"Damn Vulnerable GraphQL<html><body>841b8pk676gxpd3z8v15tyzjjgigz</body></html>"}}}
+
