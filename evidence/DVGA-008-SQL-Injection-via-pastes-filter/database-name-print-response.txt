@@ -1,0 +1,7 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Tue, 01 Sep 2026 11:21:10 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 165
+
+{"data":{"pastes":[{"burn":true,"content":"audits","id":"1","ipAddr":"6","owner":{"id":"7","name":"Robena"},"ownerId":7,"public":true,"title":"2","userAgent":"5"}]}}

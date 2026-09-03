@@ -1,0 +1,7 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Tue, 01 Sep 2026 10:41:14 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 657
+
+{"errors":[{"message":"(sqlite3.OperationalError) 1st ORDER BY term out of range - should be between 1 and 8\n[SQL: SELECT pastes.id AS pastes_id, pastes.title AS pastes_title, pastes.content AS pastes_content, pastes.public AS pastes_public, pastes.user_agent AS pastes_user_agent, pastes.ip_addr AS pastes_ip_addr, pastes.owner_id AS pastes_owner_id, pastes.burn AS pastes_burn \nFROM pastes \nWHERE pastes.public = 1 AND pastes.burn = 0 AND title = 'w' order by 9--+' or content = 'w' order by 9--+' ORDER BY pastes.id DESC\n LIMIT ? OFFSET ?]\n[parameters: (5, 0)]\n(Background on this error at: https://sqlalche.me/e/14/e3q8)"}],"data":{"pastes":null}}s
