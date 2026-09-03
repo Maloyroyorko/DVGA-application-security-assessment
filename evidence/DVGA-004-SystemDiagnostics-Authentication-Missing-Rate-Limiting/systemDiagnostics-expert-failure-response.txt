@@ -1,0 +1,7 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Mon, 31 Aug 2026 12:02:17 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 195
+
+{"errors":[{"message":"400 Bad Request: Operation Name \"systemDiagnostics\" is not allowed.","locations":[{"line":2,"column":5}],"path":["systemDiagnostics"]}],"data":{"systemDiagnostics":null}}
