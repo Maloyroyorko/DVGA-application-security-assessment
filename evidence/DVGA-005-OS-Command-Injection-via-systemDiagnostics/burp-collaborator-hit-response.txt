@@ -1,0 +1,7 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Mon, 31 Aug 2026 12:48:42 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 88
+
+{"data":{"systemDiagnostics":"<html><body>akdwpxxptxqxz11wq51n8vzjjgigz</body></html>"}}s

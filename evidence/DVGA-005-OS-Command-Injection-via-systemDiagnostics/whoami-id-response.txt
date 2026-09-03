@@ -1,0 +1,7 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Mon, 31 Aug 2026 15:29:33 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 88
+
+{"data":{"systemDiagnostics":"dvga\nuid=1000(dvga) gid=1000(dvga) groups=1000(dvga)\n"}}
