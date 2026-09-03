@@ -1,0 +1,7 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Sun, 30 Aug 2026 19:33:41 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 67
+
+{"data":{"me":{"id":"1","password":"changeme","username":"Admin"}}}
