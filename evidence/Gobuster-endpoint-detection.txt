@@ -1,0 +1,22 @@
+gobuster dir -u http://localhost:5013 -w /home/pentester/bank/graphql.txt
+
+===============================================================
+Gobuster v3.8.2
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://localhost:5013
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /home/pentester/bank/graphql.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8.2
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+graphiql             (Status: 400) [Size: 53]
+graphql              (Status: 400) [Size: 53]
+Progress: 37 / 37 (100.00%)
+===============================================================
+Finished
+===============================================================
