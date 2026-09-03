@@ -1,0 +1,21 @@
+query{
+  pastes{
+    owner{
+      pastes{
+	owner{
+	  pastes{
+	    owner{
+	      pastes{
+		owner{
+		   id
+                   nam
+		   .........
+		}
+	     }
+	  }
+	}
+      }
+     }
+    }
+   }
+ }
