@@ -1,0 +1,69 @@
+python3 main.py -t http://localhost:5013/graphql -f 
+
+{'User-Agent': 'graphw00f'}
+
+                +-------------------+
+                |     graphw00f     |
+                +-------------------+
+                  ***            ***
+                **                  **
+              **                      **
+    +--------------+              +--------------+
+    |    Node X    |              |    Node Y    |
+    +--------------+              +--------------+
+                  ***            ***
+                     **        **
+                       **    **
+                    +------------+
+                    |   Node Z   |
+                    +------------+
+
+                graphw00f - v1.2.1
+          The fingerprinting tool for GraphQL
+           Dolev Farhi <dolev@lethalbit.com>
+  
+[*] Checking if GraphQL is available at http://localhost:5013/graphql...
+[!] Found GraphQL.
+[*] Attempting to fingerprint...
+[*] Discovered GraphQL Engine: (Graphene)
+[!] Attack Surface Matrix: https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphene.md
+[!] Technologies: Python                                                                                                 
+[!] Homepage: https://graphene-python.org                                                                                
+[*] Completed.                                                                                                           
+                                                                                                                         
+┌──(pentester㉿kali)-[~/graphw00f]
+└─$ python3 main.py -t http://localhost:5013/graphiql -f
+
+{'User-Agent': 'graphw00f'}
+
+                +-------------------+
+                |     graphw00f     |
+                +-------------------+
+                  ***            ***
+                **                  **
+              **                      **
+    +--------------+              +--------------+
+    |    Node X    |              |    Node Y    |
+    +--------------+              +--------------+
+                  ***            ***
+                     **        **
+                       **    **
+                    +------------+
+                    |   Node Z   |
+                    +------------+
+
+                graphw00f - v1.2.1
+          The fingerprinting tool for GraphQL
+           Dolev Farhi <dolev@lethalbit.com>
+  
+[*] Checking if GraphQL is available at http://localhost:5013/graphiql...
+[!] Found GraphQL.
+[*] Attempting to fingerprint...
+[*] Discovered GraphQL Engine: (Graphene)
+[!] Attack Surface Matrix: https://github.com/nicholasaleks/graphql-threat-matrix/blob/master/implementations/graphene.md                   
+[!] Technologies: Python                                                                                                                    
+[!] Homepage: https://graphene-python.org                                                                                                   
+[*] Completed.                                                                                                                              
+                                                                                                                                            
+┌──(pentester㉿kali)-[~/graphw00f]
+└─$ 

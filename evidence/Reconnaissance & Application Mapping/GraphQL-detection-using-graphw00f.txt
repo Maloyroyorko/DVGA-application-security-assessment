@@ -1,0 +1,58 @@
+┌──(pentester㉿kali)-[~/graphw00f]
+└─$ python3 main.py -d -t http://localhost:5013/graphiql
+
+{'User-Agent': 'graphw00f'}
+
+                +-------------------+
+                |     graphw00f     |
+                +-------------------+
+                  ***            ***
+                **                  **
+              **                      **
+    +--------------+              +--------------+
+    |    Node X    |              |    Node Y    |
+    +--------------+              +--------------+
+                  ***            ***
+                     **        **
+                       **    **
+                    +------------+
+                    |   Node Z   |
+                    +------------+
+
+                graphw00f - v1.2.1
+          The fingerprinting tool for GraphQL
+           Dolev Farhi <dolev@lethalbit.com>
+  
+[*] Checking http://localhost:5013/graphiql
+[!] Found GraphQL at http://localhost:5013/graphiql
+                                                                                                                         
+┌──(pentester㉿kali)-[~/graphw00f]
+└─$ python3 main.py -d -t http://localhost:5013/graphql 
+
+{'User-Agent': 'graphw00f'}
+
+                +-------------------+
+                |     graphw00f     |
+                +-------------------+
+                  ***            ***
+                **                  **
+              **                      **
+    +--------------+              +--------------+
+    |    Node X    |              |    Node Y    |
+    +--------------+              +--------------+
+                  ***            ***
+                     **        **
+                       **    **
+                    +------------+
+                    |   Node Z   |
+                    +------------+
+
+                graphw00f - v1.2.1
+          The fingerprinting tool for GraphQL
+           Dolev Farhi <dolev@lethalbit.com>
+  
+[*] Checking http://localhost:5013/graphql
+[!] Found GraphQL at http://localhost:5013/graphql
+                                                                                                                         
+┌──(pentester㉿kali)-[~/graphw00f]
+└─$ 
