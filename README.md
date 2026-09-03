@@ -1,6 +1,3 @@
-# DVGA-application-security-assessment
-6-day black-box web application and API security assessment of DVGA, following OWASP WSTG and OWASP API Security Top 10 methodologies. Identified and validated 13 security findings across authentication, authorization, GraphQL/API security, and injection attack surfaces, supported by evidence and professional VAPT reporting.
-
 # DVGA VAPT DAST Project Completed By Maloy Roy Orko
 
 From GraphQL reconnaissance to confirmed exploitation.
