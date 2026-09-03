@@ -1,0 +1,7 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Tue, 01 Sep 2026 11:48:07 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 113
+
+{"data":{"createPaste":{"paste":{"id":"23","content":"<mark>hi</mark>","title":"<mark>hi</mark>","burn":false}}}}

