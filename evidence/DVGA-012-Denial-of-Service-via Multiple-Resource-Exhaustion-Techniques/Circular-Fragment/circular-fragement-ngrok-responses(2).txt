@@ -1,0 +1,9 @@
+HTTP/2 502 Bad Gateway
+Content-Type: text/plain
+Ngrok-Error-Code: ERR_NGROK_8012
+Content-Length: 162
+Date: Wed, 02 Sep 2026 04:03:29 GMT
+
+Traffic successfully made it to the ngrok agent, but the agent failed to establish a connection to the upstream web service at localhost:5013.
+
+ERR_NGROK_8012

@@ -1,0 +1,20 @@
+query readAndBurn {
+    readAndBurn(id: 1) {
+	...Happy
+}}
+
+fragment Happy on PasteObject{
+	burn
+        content
+        id
+        ipAddr
+	...Sad
+}
+
+fragment Sad on PasteObject{
+	burn
+        content
+        id
+        ipAddr
+	...Happy
+}
